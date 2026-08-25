@@ -17,6 +17,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 mobileMenuBtn.classList.add('ri-menu-3-line');
             }
         });
+
+        // Close menu when a navigation link is clicked
+        const menuLinks = navLinks.querySelectorAll('a');
+        menuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                if (navLinks.classList.contains('mobile-active')) {
+                    navLinks.classList.remove('mobile-active');
+                    mobileMenuBtn.classList.remove('ri-close-line');
+                    mobileMenuBtn.classList.add('ri-menu-3-line');
+                }
+            });
+        });
     }
 
     // 1. Header Scroll Effect
