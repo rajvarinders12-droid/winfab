@@ -4,373 +4,600 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WinFab | Excellence in Hardware</title>
+    <title>WinFab | Premium Architectural Solutions</title>
     <link rel="stylesheet" href="style.css">
 
-    <!-- Outfit for architectural premium headings, Inter for clean body text -->
+    <!-- Modern Fonts: Plus Jakarta Sans for a very sleek look -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
-
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Custom Dot Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="cursor-follower"></div>
 
-    <!-- Top Header -->
-    <div class="top-header">
-        <div class="container top-header-inner">
-            <div class="contact-info">
-                <span><i class="ri-map-pin-line"></i> P.No. H1/13G RIICO, Gurugram</span>
-                <span><i class="ri-phone-line"></i> +91-7231890333</span>
+    <!-- Header Group -->
+    <div class="header-wrapper">
+        <!-- Top Utility Bar -->
+        <div class="top-bar">
+            <div class="top-contacts">
+                <a href="#"><i class="ri-map-pin-line"></i> P.No. H1/13G RIICO, Gurugram, Haryana</a>
+                <a href="#"><i class="ri-file-text-line"></i> GST: 06ANVPB2964J1ZM</a>
             </div>
-            <div class="top-social">
-                <a href="#"><i class="ri-facebook-fill"></i></a>
-                <a href="#"><i class="ri-instagram-fill"></i></a>
-                <a href="#"><i class="ri-linkedin-fill"></i></a>
+        </div>
+
+        <!-- Solid White Header -->
+        <header class="modern-header">
+            <div class="nav-container">
+                <a href="#" class="brand-logo">
+                    <span class="logo-brand">WINFAB</span>
+                    <span class="logo-text">uPVC & Aluminium</span>
+                </a>
+                <nav class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#spaces">Spaces</a>
+                    <div class="nav-dropdown">
+                        <a href="#products">Products <i class="ri-arrow-down-s-line"></i></a>
+                        <div class="dropdown-content">
+                            <a href="upvc.html">uPVC Doors & Windows</a>
+                            <a href="aluminium.html">Aluminium Doors & Windows</a>
+                        </div>
+                    </div>
+                    <a href="#solutions">Services</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <div class="nav-actions">
+                    <a href="#" id="estimate-btn" class="btn-outline-nav">Get an Estimate</a>
+                    <i class="ri-menu-3-line mobile-menu-icon" id="mobile-menu-btn"></i>
+                </div>
             </div>
+        </header>
+    </div>
+
+    <!-- Split Hero Section -->
+    <section class="split-hero">
+
+        <!-- Slide 1 -->
+        <div class="hero-slide active">
+            <div class="hero-image-half" style="background-image: url('5.jpeg');"></div>
+            <div class="hero-content-half">
+                <div class="hero-text-box">
+                    <span class="hero-tag">01 // Energy Efficient</span>
+                    <h1 class="ais-title">Premium uPVC<br>Doors & Windows</h1>
+                    <p class="ais-sub">Keep your home soundproof and perfectly insulated year round.</p>
+                    <div class="hero-features">
+                        <span><i class="ri-check-line"></i> Block Outside Noise</span>
+                        <span><i class="ri-check-line"></i> Zero Maintenance</span>
+                    </div>
+                    <a href="upvc.html" class="btn-read-more">Discover uPVC</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="hero-slide">
+            <div class="hero-image-half" style="background-image: url('2.jpeg');"></div>
+            <div class="hero-content-half">
+                <div class="hero-text-box">
+                    <span class="hero-tag">02 // Modern Aesthetics</span>
+                    <h1 class="ais-title">Aluminium Doors<br>& Windows</h1>
+                    <p class="ais-sub">Minimalist, ultra-strong frames designed for massive luxury glass views.</p>
+                    <div class="hero-features">
+                        <span><i class="ri-check-line"></i> Sleek Profiles</span>
+                        <span><i class="ri-check-line"></i> Heavy-Duty Strength</span>
+                    </div>
+                    <a href="aluminium.html" class="btn-read-more">Explore Aluminium</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="hero-slide">
+            <div class="hero-image-half" style="background-image: url('4.jpeg');"></div>
+            <div class="hero-content-half">
+                <div class="hero-text-box">
+                    <span class="hero-tag">03 // End-to-End Execution</span>
+                    <h1 class="ais-title">Complete Glass<br>Solutions</h1>
+                    <p class="ais-sub">From personalized design to flawless execution, we bring your vision to life.</p>
+                    <div class="hero-features">
+                        <span><i class="ri-check-line"></i> Customized Designs</span>
+                        <span><i class="ri-check-line"></i> Professional Install</span>
+                    </div>
+                    <a href="#contact" class="btn-read-more">Get an Estimate</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider Controls -->
+        <div class="slider-controls">
+            <div class="slider-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Infinite Scrolling Marquee -->
+    <div class="marquee-section">
+        <div class="marquee-content">
+            <!-- Repeated text for seamless infinite scroll -->
+            <span>PREMIUM uPVC SOLUTIONS <i class="ri-gem-line"></i> ARCHITECTURAL ALUMINIUM <i class="ri-gem-line"></i>
+                ZERO MAINTENANCE <i class="ri-gem-line"></i> UNYIELDING SECURITY <i class="ri-gem-line"></i></span>
+            <span>PREMIUM uPVC SOLUTIONS <i class="ri-gem-line"></i> ARCHITECTURAL ALUMINIUM <i class="ri-gem-line"></i>
+                ZERO MAINTENANCE <i class="ri-gem-line"></i> UNYIELDING SECURITY <i class="ri-gem-line"></i></span>
         </div>
     </div>
 
-    <!-- Main Navigation -->
-    <header class="site-header">
-        <div class="container header-inner">
-            <a href="#" class="logo">WIN<span>FAB</span></a>
-            <nav class="main-nav">
-                <a href="#home" class="active">HOME</a>
-                <a href="#about">ABOUT US</a>
-                <a href="#services">SERVICES</a>
-                <a href="#products">PRODUCTS</a>
-            </nav>
-            <div class="header-actions">
-                <a href="#contact" class="btn btn-blue">CONTACT US</a>
-                <button class="mobile-toggle" aria-label="Toggle Menu" id="mobile-toggle"><i
-                        class="ri-menu-3-line"></i></button>
-            </div>
-        </div>
-    </header>
+    <!-- Sleek Statistical About Section -->
+    <section class="about-section slide-up-trigger" id="about">
+        <div class="about-wrapper">
+            <div class="about-text zoom-in-trigger">
+                <h2>Crafting Quality Windows.</h2>
+                <p>For over 10 years, WinFab has delivered the absolute best in uPVC and Aluminium fenestration. We
+                    design, manufacture, and flawlessly install beautiful, secure, and weatherproof solutions tailored
+                    exactly to your home or business.</p>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="container hero-grid">
-            <div class="hero-content">
-
-                <!-- Much more elegant highlight application -->
-                <h1 class="fade-up delay-100">Transforming Spaces with<br><span class="highlight">uPVC &
-                        Aluminium</span><br>Solutions</h1>
-
-                <p class="fade-up delay-200">Since 2022, WinFab has set the industry standard for high-performance
-                    window and door structures. We blend innovative design with uncompromising durability to elevate
-                    your architectural vision.</p>
-                <div class="fade-up delay-300">
-                    <a href="#about" class="btn btn-yellow">DISCOVER MORE</a>
-                </div>
-            </div>
-            <div class="hero-image-wrapper fade-in delay-200">
-                <img src="2.jpeg" alt="Architectural UPVC Window Frame" class="lux-img">
-                <img src="5.jpeg" alt="Luxury Interior Windows" class="lux-img img-2">
-            </div>
-        </div>
-
-        <!-- Scroll Down Semi-circle Tab -->
-        <a href="#about" class="scroll-down" aria-label="Scroll Down">
-            <i class="ri-arrow-down-s-line"></i>
-        </a>
-    </section>
-
-    <!-- About Us & Advantages Section (Bento Restyle) -->
-    <section class="about section" id="about" style="padding: 120px 0; background-color: var(--wf-white);">
-        <div class="container fade-up">
-            <div class="new-about-grid">
-
-                <!-- Left Column -->
-                <div class="about-info-col">
-                    <h2 class="about-heading" style="margin-bottom: 30px;">Transforming Spaces with<br>Precision
-                        Engineering</h2>
-                    <p class="about-desc">
-                        Established in 2022, WinFab has proudly partnered with over 2,000+ clients nationwide. By
-                        prioritizing state-of-the-art manufacturing techniques, we convert raw materials into elegant,
-                        highly functional architectural assets that drastically out-perform standard hardware.
-                    </p>
-
-                    <div class="about-features" style="margin-bottom: 45px;">
-                        <div class="a-feat-item">
-                            <div class="a-feat-icon bg-blue"><i class="ri-ruler-line"></i></div>
-                            <div class="a-feat-text">
-                                <h4 style="font-family: var(--font-heading); margin-bottom: 5px; font-weight: 600;">
-                                    Master Craftsmanship</h4>
-                                <p style="font-size: 14px;">Meticulously conceptualized down to the millimeter, ensuring
-                                    flawless installation and exceptionally smooth operational longevity.</p>
-                            </div>
-                        </div>
-
-                        <div class="a-feat-item">
-                            <div class="a-feat-icon bg-yellow"><i class="ri-shield-user-line"
-                                    style="color: var(--wf-blue);"></i></div>
-                            <div class="a-feat-text">
-                                <h4 style="font-family: var(--font-heading); margin-bottom: 5px; font-weight: 600;">
-                                    Client-Centric Philosophy</h4>
-                                <p style="font-size: 14px;">From bespoke hardware quotes to comprehensive after-sales
-                                    support, your project's absolute success is our primary mandate.</p>
-                            </div>
-                        </div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <i class="ri-medal-line stat-icon"></i>
+                        <h3 class="stat-number"><span class="counter" data-target="10">0</span>+</h3>
+                        <p class="stat-label">Years of Experience</p>
                     </div>
-
-                    <a href="#services" class="btn btn-blue"
-                        style="border-radius: 0; padding: 18px 40px; letter-spacing: 2px;">DISCOVER OUR EXPERTISE</a>
-                </div>
-
-                <!-- Right Column: Bento 2x2 Grid -->
-                <div class="about-bento-col fade-in delay-200">
-                    <div class="bento-box solid-blue">
-                        <h3 style="color: var(--wf-white); font-size: 24px; margin-bottom: 15px;">5+ Years in Industry
-                        </h3>
-                        <p style="color: rgba(255,255,255,0.8); font-size: 14px; line-height: 1.7;">Delivering
-                            consistent, high-grade architectural fenestration and setting enduring functional
-                            benchmarks.</p>
-                    </div>
-                    <div class="bento-box photo-box">
-                        <img src="hero-home-3.jpg" alt="Luxury Architectural Interior">
-                    </div>
-                    <div class="bento-box photo-box hide-on-mobile">
-                        <img src="upvc-sliding-door.png" alt="Sleek Modern Doors">
-                    </div>
-                    <div class="bento-box solid-yellow">
-                        <h3 style="color: var(--wf-white); font-size: 24px; margin-bottom: 15px;">Served 2,000+ Families
-                        </h3>
-                        <p style="color: var(--wf-white); font-size: 14px; line-height: 1.7;">And counting. Providing
-                            sustainable quality alongside customized fittings tailored precisely to demands.
-                        </p>
+                    <div class="stat-item">
+                        <i class="ri-building-4-line stat-icon"></i>
+                        <h3 class="stat-number"><span class="counter" data-target="2500">0</span>+</h3>
+                        <p class="stat-label">Projects Completed</p>
                     </div>
                 </div>
+            </div>
 
+            <div class="about-image zoom-in-trigger">
+                <img src="1.jpeg" alt="WinFab Premium Architectural Design">
             </div>
         </div>
     </section>
 
-    <!-- Best Selling uPVC Section - Simplified Layout -->
-    <section class="section" style="padding: 60px 0; background-color: #f7f9fb;">
-        <div class="container fade-up">
-
-            <!-- Compact Banner -->
-            <div style="position: relative; border-radius: 12px; overflow: hidden; display: flex; align-items: center;">
-                <div
-                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('hero-home-3.jpg') center/cover no-repeat;">
-                </div>
-
-                <div
-                    style="position: absolute; top:0; left:0; width: 100%; height: 100%; background: linear-gradient(90deg, rgba(8,26,64,0.95) 0%, rgba(8,26,64,0.85) 50%, rgba(8,26,64,0.3) 100%);">
-                </div>
-
-                <div style="position: relative; z-index: 2; padding: 60px 50px; max-width: 600px;">
-                    <h2
-                        style="font-family: var(--font-heading); font-size: 38px; color: var(--wf-white); line-height: 1.2; margin-bottom: 20px;">
-                        Premium <span style="color: var(--wf-yellow);">uPVC</span> Solutions for Indian Homes.
-                    </h2>
-
-                    <p
-                        style="font-size: 16px; color: rgba(255,255,255,0.9); line-height: 1.6; margin-bottom: 30px; font-weight: 300;">
-                        Our best-selling uPVC doors and windows are explicitly built for tough weather. They keep the
-                        heat out, block street noise completely, and require practically zero maintenance over their
-                        lifetime.
-                    </p>
-
-                    <div style="display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
-                        <a href="upvc.html" class="btn btn-yellow"
-                            style="padding: 14px 30px; border-radius: 4px; font-size: 14px;">View uPVC Range</a>
+    <!-- Spaces We Transform (Inspired by AIS) -->
+    <section class="spaces-section slide-up-trigger" id="spaces">
+        <div class="section-heading">
+            <h2 class="outline-text">SPACES</h2>
+            <h3 class="solid-text">Transforming Every Corner</h3>
+        </div>
+        <div class="spaces-grid-track">
+            <div class="spaces-grid">
+                <a href="#" class="space-card">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800"
+                        alt="Balcony Doors">
+                    <div class="space-overlay">
+                        <h4>Balcony</h4>
+                        <p>Seamless transitions</p>
                     </div>
-                </div>
-            </div>
-
-            <!-- Features Cards attached directly below -->
-            <div
-                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin-top: 15px;">
-
-                <!-- Card 1 -->
-                <div
-                    style="background: var(--wf-white); padding: 30px 25px; border-radius: 8px; border-top: 3px solid var(--wf-blue); box-shadow: 0 10px 30px rgba(8,26,64,0.04);">
-                    <div style="color: var(--wf-blue); font-size: 26px; margin-bottom: 15px;">
-                        <i class="ri-temp-cold-line"></i>
+                </a>
+                <a href="#" class="space-card">
+                    <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?q=80&w=800"
+                        alt="Bedroom Windows">
+                    <div class="space-overlay">
+                        <h4>Bedroom</h4>
+                        <p>Sanctuary of peace</p>
                     </div>
-                    <h4
-                        style="font-family: var(--font-heading); color: var(--wf-blue); font-size: 17px; margin-bottom: 10px;">
-                        Keeps Homes Cool</h4>
-                    <p style="font-size: 14px; color: var(--wf-text); line-height: 1.5; margin: 0;">Excellent insulation
-                        blocks summer heat, cutting down your AC bills easily.</p>
-                </div>
-
-                <!-- Card 2 -->
-                <div
-                    style="background: var(--wf-white); padding: 30px 25px; border-radius: 8px; border-top: 3px solid var(--wf-yellow); box-shadow: 0 10px 30px rgba(8,26,64,0.04);">
-                    <div style="color: var(--wf-yellow); font-size: 26px; margin-bottom: 15px;">
-                        <i class="ri-volume-mute-line"></i>
+                </a>
+                <a href="#" class="space-card">
+                    <img src="kitchen.png" alt="Kitchen Windows">
+                    <div class="space-overlay">
+                        <h4>Kitchen</h4>
+                        <p>Bathed in natural light</p>
                     </div>
-                    <h4
-                        style="font-family: var(--font-heading); color: var(--wf-blue); font-size: 17px; margin-bottom: 10px;">
-                        Blocks Outside Noise</h4>
-                    <p style="font-size: 14px; color: var(--wf-text); line-height: 1.5; margin: 0;">Say goodbye to
-                        street noise. Experience true silence inside your house.</p>
-                </div>
-
-                <!-- Card 3 -->
-                <div
-                    style="background: var(--wf-white); padding: 30px 25px; border-radius: 8px; border-top: 3px solid var(--wf-blue); box-shadow: 0 10px 30px rgba(8,26,64,0.04);">
-                    <div style="color: var(--wf-blue); font-size: 26px; margin-bottom: 15px;">
-                        <i class="ri-shield-star-line"></i>
+                </a>
+                <a href="#" class="space-card">
+                    <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=800"
+                        alt="Living Room Windows">
+                    <div class="space-overlay">
+                        <h4>Living Room</h4>
+                        <p>Expand your horizon</p>
                     </div>
-                    <h4
-                        style="font-family: var(--font-heading); color: var(--wf-blue); font-size: 17px; margin-bottom: 10px;">
-                        High Security</h4>
-                    <p style="font-size: 14px; color: var(--wf-text); line-height: 1.5; margin: 0;">Fitted with
-                        multi-point locks and strong steel cores to keep your family safe.</p>
-                </div>
-
-                <!-- Card 4 -->
-                <div
-                    style="background: var(--wf-white); padding: 30px 25px; border-radius: 8px; border-top: 3px solid var(--wf-blue); box-shadow: 0 10px 30px rgba(8,26,64,0.04);">
-                    <div style="color: var(--wf-blue); font-size: 26px; margin-bottom: 15px;">
-                        <i class="ri-sun-line"></i>
+                </a>
+                <a href="#" class="space-card">
+                    <img src="office.png" alt="Home Office Windows">
+                    <div class="space-overlay">
+                        <h4>Home Office</h4>
+                        <p>Inspiring workspaces</p>
                     </div>
-                    <h4
-                        style="font-family: var(--font-heading); color: var(--wf-blue); font-size: 17px; margin-bottom: 10px;">
-                        Zero Maintenance</h4>
-                    <p style="font-size: 14px; color: var(--wf-text); line-height: 1.5; margin: 0;">Just wipe clean.
-                        They will never rust, fade, peel or require painting.</p>
-                </div>
+                </a>
 
+                <!-- Duplicates for seamless mobile marquee -->
+                <a href="#" class="space-card m-dup">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800"
+                        alt="Balcony Doors">
+                    <div class="space-overlay">
+                        <h4>Balcony</h4>
+                        <p>Seamless transitions</p>
+                    </div>
+                </a>
+                <a href="#" class="space-card m-dup">
+                    <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?q=80&w=800"
+                        alt="Bedroom Windows">
+                    <div class="space-overlay">
+                        <h4>Bedroom</h4>
+                        <p>Sanctuary of peace</p>
+                    </div>
+                </a>
+                <a href="#" class="space-card m-dup">
+                    <img src="kitchen.png" alt="Kitchen Windows">
+                    <div class="space-overlay">
+                        <h4>Kitchen</h4>
+                        <p>Bathed in natural light</p>
+                    </div>
+                </a>
+                <a href="#" class="space-card m-dup">
+                    <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=800"
+                        alt="Living Room Windows">
+                    <div class="space-overlay">
+                        <h4>Living Room</h4>
+                        <p>Expand your horizon</p>
+                    </div>
+                </a>
+                <a href="#" class="space-card m-dup">
+                    <img src="office.png" alt="Home Office Windows">
+                    <div class="space-overlay">
+                        <h4>Home Office</h4>
+                        <p>Inspiring workspaces</p>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- Explore Our Products Section (Lux Interactive Cards) -->
-    <section class="product-categories section" id="services">
-        <div class="container">
-            <div class="section-title text-center fade-up">
-                <h2>Explore Our <span class="text-accent">Products</span></h2>
-                <p>Discover our comprehensive range of high-performance architectural systems</p>
-            </div>
-
-            <div class="category-grid">
-                <!-- Card 1: uPVC -->
-                <div class="cat-card fade-up delay-100">
-                    <div class="cat-img-wrap">
-                        <img src="upvc-sliding-door.png" alt="uPVC Windows and Doors">
-                    </div>
-                    <div class="cat-title-box">
-                        <h3>uPVC Windows & Doors</h3>
-                    </div>
-                    <div class="cat-info">
-                        <p>Explore our premium uPVC fenestration systems. Engineered for extraordinary thermal
-                            efficiency, acoustic insulation, and durability. Discover casements, sliders, and
-                            ventilators customized fully to your architectural needs.</p>
-                        <a href="upvc.html" class="cat-link">View uPVC Range <i class="ri-arrow-right-line"></i></a>
-                    </div>
-                </div>
-
-                <!-- Card 2: Aluminium -->
-                <div class="cat-card fade-up delay-200">
-                    <div class="cat-img-wrap">
-                        <img src="aluminium-sliding-window.png" alt="Aluminium Windows and Doors">
-                    </div>
-                    <div class="cat-title-box">
-                        <h3>Aluminium Windows & Doors</h3>
-                    </div>
-                    <div class="cat-info">
-                        <p>Discover ultra-modern Aluminium architectural profiles. Offering supreme structural
-                            integrity, sleek sightlines, and expansive glass capabilities for commercial and high-end
-                            residential luxury projects.</p>
-                        <a href="aluminium.html" class="cat-link">View Aluminium Range <i
-                                class="ri-arrow-right-line"></i></a>
-                    </div>
-                </div>
-            </div>
+    <!-- Ultra-Clean Full-Width Products Showcase -->
+    <section class="products-section" id="products">
+        <div class="section-heading slide-up-trigger">
+            <h2 class="outline-text">PRODUCTS</h2>
+            <h3 class="solid-text">WinFab's Exclusive Range of Products</h3>
         </div>
-    </section>
 
-    <!-- Bespoke Capability Section -->
-    <section class="advantages section" id="why-us" style="padding: 120px 0; background-color: #ffffff;">
-        <div class="container fade-up">
-
-            <h2
-                style="font-family: var(--font-heading); font-size: 42px; color: var(--wf-blue); margin-bottom: 50px; max-width: 600px; line-height: 1.15;">
-                Why Choose Us</h2>
-
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
-
-                <!-- Box 1 (Navy Blue) -->
-                <div style="padding: 50px 40px; background-color: var(--wf-blue); position: relative;">
-                    <div
-                        style="font-family: var(--font-heading); font-size: 55px; font-weight: 700; color: rgba(255,255,255,0.06); position: absolute; top: 25px; right: 35px; line-height: 1;">
-                        01</div>
-                    <h3
-                        style="font-family: var(--font-heading); font-size: 24px; color: var(--wf-yellow); margin-bottom: 20px; position: relative;">
-                        Thermal Isolation</h3>
-                    <p style="color: rgba(255,255,255,0.8); font-size: 15px; line-height: 1.7; position: relative;">
-                        Multi-chamber profiles block exterior temperatures permanently, preventing heat transfer and
-                        strictly stabilizing indoor climate control.</p>
-                </div>
-
-                <!-- Box 2 (Deep Concrete/Slate) -->
-                <div style="padding: 50px 40px; background-color: #1a2332; position: relative;">
-                    <div
-                        style="font-family: var(--font-heading); font-size: 55px; font-weight: 700; color: rgba(255,255,255,0.04); position: absolute; top: 25px; right: 35px; line-height: 1;">
-                        02</div>
-                    <h3
-                        style="font-family: var(--font-heading); font-size: 24px; color: #ffffff; margin-bottom: 20px; position: relative;">
-                        Absolute Security</h3>
-                    <p style="color: rgba(255,255,255,0.6); font-size: 15px; line-height: 1.7; position: relative;">Core
-                        reinforcements forged from heavy galvanized steel, integrated natively with locking hardware
-                        that absolutely cannot be breached.</p>
-                </div>
-
-                <!-- Box 3 (Brand Yellow) -->
-                <div style="padding: 50px 40px; background-color: var(--wf-yellow); position: relative;">
-                    <div
-                        style="font-family: var(--font-heading); font-size: 55px; font-weight: 700; color: rgba(8,26,64,0.08); position: absolute; top: 25px; right: 35px; line-height: 1;">
-                        03</div>
-                    <h3
-                        style="font-family: var(--font-heading); font-size: 24px; color: var(--wf-blue); margin-bottom: 20px; position: relative;">
-                        Zero Maintenance</h3>
-                    <p
-                        style="color: var(--wf-blue); font-size: 15px; font-weight: 500; line-height: 1.7; position: relative;">
-                        UV-resistant industrial surface finishes permanently guaranteed against long-term architectural
-                        corrosion, rot, peeling, or warping.</p>
-                </div>
-
+        <!-- Product 1 -->
+        <div class="product-panel slide-up-trigger">
+            <div class="p-image">
+                <img src="4.jpeg" alt="uPVC Solutions">
             </div>
-
-        </div>
-    </section>
-
-    <footer class="footer" id="contact" style="background-color: var(--wf-blue); color: white; padding: 80px 0;">
-        <div class="container footer-grid">
-            <div class="fade-up">
-                <h2 class="logo" style="color: white;">WIN<span style="color: var(--wf-yellow);">FAB</span></h2>
-                <p style="margin-top: 20px; font-weight: 300;">Crafting the finest windows and doors hardware for
-                    residential and commercial projects.</p>
-            </div>
-            <div class="fade-up delay-100">
-                <h4
-                    style="color: var(--wf-yellow); margin-bottom: 25px; font-size: 12px; letter-spacing: 2px; text-transform: uppercase;">
-                    NAVIGATION</h4>
-                <ul class="footer-links" style="list-style: none; display: flex; flex-direction: column; gap: 15px;">
-                    <li><a href="#home" style="color: rgba(255,255,255,0.7);">Home</a></li>
-                    <li><a href="#about" style="color: rgba(255,255,255,0.7);">About Us</a></li>
-                    <li><a href="#services" style="color: rgba(255,255,255,0.7);">Services</a></li>
+            <div class="p-content">
+                <div class="p-num">01</div>
+                <h2>uPVC Collections</h2>
+                <p>Experience complete thermal isolation and absolute zero street noise with our advanced uPVC
+                    multi-chamber profiles.</p>
+                <ul class="p-features">
+                    <li><i class="ri-check-line"></i> Maximum Acoustic Insulation</li>
+                    <li><i class="ri-check-line"></i> Zero Maintenance Lifespan</li>
+                    <li><i class="ri-check-line"></i> Energy Saving Profiles</li>
                 </ul>
+                <a href="upvc.html" class="btn-secondary">Explore uPVC <i class="ri-arrow-right-line"></i></a>
             </div>
-            <div class="fade-up delay-200">
-                <h4
-                    style="color: var(--wf-yellow); margin-bottom: 25px; font-size: 12px; letter-spacing: 2px; text-transform: uppercase;">
-                    CONTACT</h4>
-                <ul class="contact-list" style="list-style: none;">
-                    <li style="margin-bottom: 20px;"><i class="ri-map-pin-line"
-                            style="color: var(--wf-yellow); margin-right: 10px;"></i> P.No. H1/13G RIICO, Gurugram</li>
-                    <li style="margin-bottom: 20px;"><i class="ri-phone-line"
-                            style="color: var(--wf-yellow); margin-right: 10px;"></i> +91-7231890333</li>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-panel reverse slide-up-trigger">
+            <div class="p-image">
+                <img src="aluminium-sliding-door.png" alt="Aluminium Solutions" style="background: #f4f4f4;">
+            </div>
+            <div class="p-content">
+                <div class="p-num">02</div>
+                <h2>Aluminium Series</h2>
+                <p>Ultra-modern structural profiles providing massive glass spans and impossibly slim sightlines for
+                    bespoke luxury.</p>
+                <ul class="p-features">
+                    <li><i class="ri-check-line"></i> Monumental Structural Integrity</li>
+                    <li><i class="ri-check-line"></i> Sleek & Minimalist Frames</li>
+                    <li><i class="ri-check-line"></i> Heavy-Duty Precision Rollers</li>
                 </ul>
+                <a href="aluminium.html" class="btn-secondary">Explore Aluminium <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expanded Solutions -->
+    <section class="advantages-section slide-up-trigger" id="solutions">
+        <div class="adv-container">
+            <div class="adv-intro">
+                <h2>WinFab Solutions</h2>
+                <p>Advanced engineering matching your environment's exact demands.</p>
+            </div>
+            <div class="adv-grid">
+                <div class="adv-card">
+                    <div class="adv-icon"><i class="ri-volume-mute-line"></i></div>
+                    <h3>Acoustic Solutions</h3>
+                    <p>Complete sound isolation keeping the chaos of the city outside.</p>
+                </div>
+                <div class="adv-card">
+                    <div class="adv-icon"><i class="ri-temp-cold-line"></i></div>
+                    <h3>Thermal Control</h3>
+                    <p>Engineered to severely restrict heat transfer, slashing energy consumption effortlessly.</p>
+                </div>
+                <div class="adv-card">
+                    <div class="adv-icon"><i class="ri-shield-check-line"></i></div>
+                    <h3>Absolute Security</h3>
+                    <p>Fitted with heavy galvanized steel reinforcements & multipoint locks.</p>
+                </div>
+                <div class="adv-card">
+                    <div class="adv-icon"><i class="ri-windy-line"></i></div>
+                    <h3>Anti-Pollution</h3>
+                    <p>Hermetically sealed internal joints ensuring zero dust and smog ingress.</p>
+                </div>
+                <div class="adv-card">
+                    <div class="adv-icon"><i class="ri-drop-line"></i></div>
+                    <h3>Weather Proofing</h3>
+                    <p>Engineered to withstand heavy monsoon rains and cyclonic winds.</p>
+                </div>
+                <div class="adv-card">
+                    <div class="adv-icon"><i class="ri-leaf-line"></i></div>
+                    <h3>Eco-Sustainability</h3>
+                    <p>100% recyclable profiles created using lead-free, environmentally responsible processes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End to End Process (Inspired by AIS) -->
+    <section class="process-section slide-up-trigger">
+        <div class="process-container">
+            <h2>End-to-End Execution.</h2>
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-num">01</div>
+                    <h4>Consultation</h4>
+                    <p>Expert site audit & brief.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">02</div>
+                    <h4>Design</h4>
+                    <p>Custom profile selection.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">03</div>
+                    <h4>Fabrication</h4>
+                    <p>Precision manufacturing.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">04</div>
+                    <h4>Installation</h4>
+                    <p>Hassle-free deployment.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">05</div>
+                    <h4>Support</h4>
+                    <p>Dedicated after-sales service.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Reviews Section -->
+    <section class="reviews-section slide-up-trigger" id="reviews">
+        <div class="section-heading">
+            <h2 class="outline-text">TESTIMONIALS</h2>
+            <h3 class="solid-text">Trusted by India's Finest</h3>
+        </div>
+        <div class="reviews-track-container">
+            <div class="reviews-track">
+                <!-- Group 1 -->
+                <div class="review-card">
+                    <img src="review1.webp" alt="Rajesh Sharma Review">
+                    <div class="review-content">
+                        <h4>Rajesh Sharma</h4>
+                        <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
+                        <p class="r-text">"Flawless installation. Completely blocks out the noisy street traffic."</p>
+                        <p class="r-tag">uPVC Solution</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="review5.webp" alt="Ananya Gupta Review">
+                    <div class="review-content">
+                        <h4>Ananya Gupta</h4>
+                        <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
+                        <p class="r-text">"The slim aluminium profiles look incredibly premium. Worth every penny."</p>
+                        <p class="r-tag">Aluminium Series</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="review2.webp" alt="Vikram Singh Review">
+                    <div class="review-content">
+                        <h4>Vikram Singh</h4>
+                        <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
+                        <p class="r-text">"Zero draughts during the monsoons. The weather sealing is exceptional."</p>
+                        <p class="r-tag">uPVC Casement</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="review6.webp" alt="Neha Reddy Review">
+                    <div class="review-content">
+                        <h4>Neha Reddy</h4>
+                        <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
+                        <p class="r-text">"Extremely sturdy construction. The entire process from audit to install was
+                            smooth."</p>
+                        <p class="r-tag">Aluminium Doors</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="review3.webp" alt="Aditya Verma Review">
+                    <div class="review-content">
+                        <h4>Aditya Verma</h4>
+                        <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
+                        <p class="r-text">"The sliding system is butter smooth. Transformed our whole living room."</p>
+                        <p class="r-tag">uPVC Balcony</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="review7.webp" alt="Priya Patel Review">
+                    <div class="review-content">
+                        <h4>Priya Patel</h4>
+                        <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
+                        <p class="r-text">"Perfectly handled our custom large-scale glass requirements."</p>
+                        <p class="r-tag">Aluminium Profile</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="review4.webp" alt="Kabir Desai Review">
+                    <div class="review-content">
+                        <h4>Kabir Desai</h4>
+                        <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
+                        <p class="r-text">"High-quality materials. Highly recommend WinFab for modern residential
+                            projects."</p>
+                        <p class="r-tag">uPVC Ventilation</p>
+                    </div>
+                </div>
+
+                <!-- Duplicate array for infinite scroll -->
+                <div class="review-card">
+                    <img src="review1.webp" alt="Rajesh Sharma Review">
+                    <div class="review-content">
+                        <h4>Rajesh Sharma</h4>
+                        <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
+                        <p class="r-text">"Flawless installation. Completely blocks out the noisy street traffic."</p>
+                        <p class="r-tag">uPVC Solution</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="review5.webp" alt="Ananya Gupta Review">
+                    <div class="review-content">
+                        <h4>Ananya Gupta</h4>
+                        <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
+                        <p class="r-text">"The slim aluminium profiles look incredibly premium. Worth every penny."</p>
+                        <p class="r-tag">Aluminium Series</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="review2.webp" alt="Vikram Singh Review">
+                    <div class="review-content">
+                        <h4>Vikram Singh</h4>
+                        <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
+                        <p class="r-text">"Zero draughts during the monsoons. The weather sealing is exceptional."</p>
+                        <p class="r-tag">uPVC Casement</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="review6.webp" alt="Neha Reddy Review">
+                    <div class="review-content">
+                        <h4>Neha Reddy</h4>
+                        <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
+                        <p class="r-text">"Extremely sturdy construction. The entire process from audit to install was
+                            smooth."</p>
+                        <p class="r-tag">Aluminium Doors</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="review3.webp" alt="Aditya Verma Review">
+                    <div class="review-content">
+                        <h4>Aditya Verma</h4>
+                        <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
+                        <p class="r-text">"The sliding system is butter smooth. Transformed our whole living room."</p>
+                        <p class="r-tag">uPVC Balcony</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="review7.webp" alt="Priya Patel Review">
+                    <div class="review-content">
+                        <h4>Priya Patel</h4>
+                        <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
+                        <p class="r-text">"Perfectly handled our custom large-scale glass requirements."</p>
+                        <p class="r-tag">Aluminium Profile</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img src="review4.webp" alt="Kabir Desai Review">
+                    <div class="review-content">
+                        <h4>Kabir Desai</h4>
+                        <span><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                                class="ri-star-fill"></i><i class="ri-star-fill"></i></span>
+                        <p class="r-text">"High-quality materials. Highly recommend WinFab for modern residential
+                            projects."</p>
+                        <p class="r-tag">uPVC Ventilation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Contact Section -->
+    <section class="contact-section slide-up-trigger" id="contact">
+        <div class="contact-container">
+            <div class="contact-copy">
+                <h2>Start Your Project</h2>
+                <p>Have architectural blueprints ready or just starting? Our engineering team provides consultations and
+                    premium fabrication anywhere in India. Reach out for an exclusive estimate.</p>
+                <div class="contact-features">
+                    <span><i class="ri-check-line"></i> Rapid Quotes</span>
+                    <span><i class="ri-check-line"></i> Pan-India Shipping</span>
+                    <span><i class="ri-check-line"></i> Dedicated Account Managers</span>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <form id="wa-contact-form" class="c-form">
+                    <div class="form-row">
+                        <input type="text" id="c-name" placeholder="Full Name" required>
+                        <input type="tel" id="c-phone" placeholder="Contact Number" required>
+                    </div>
+                    <input type="email" id="c-email" placeholder="Email Address (Optional)">
+
+                    <div class="custom-select">
+                        <select id="c-service" required>
+                            <option value="" disabled selected>Select a Service</option>
+                            <option value="uPVC Windows and Doors">uPVC Windows and Doors</option>
+                            <option value="Aluminium Windows and Doors">Aluminium Windows and Doors</option>
+                        </select>
+                        <i class="ri-arrow-down-s-line"></i>
+                    </div>
+                    <textarea id="c-message" placeholder="Project details or special requirements (Optional)"
+                        rows="4"></textarea>
+
+                    <button type="submit" class="btn-yellow">SEND TO WHATSAPP <i class="ri-whatsapp-line"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brutalist Footer -->
+    <footer class="modern-footer">
+        <div class="footer-top">
+            <div class="f-info">
+                <h4>Get in Touch</h4>
+                <p>Ready to upgrade your space? Connect with our architectural experts.</p>
+                <a href="mailto:info@winfab.com" class="f-email">info@winfab.com</a>
+                <a href="tel:+919873555667" class="f-phone">+91 98735 55667</a>
+            </div>
+
+            <div class="f-address">
+                <h4>Headquarters</h4>
+                <p>P.No. H1/13G RIICO,<br>Gurugram, Haryana</p>
+
+                <div class="f-socials">
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                    <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <h1 class="giant-brand">WINFAB</h1>
+            <div class="legal">
+                <span>© 2026 WinFab Industries. All rights reserved.</span>
             </div>
         </div>
     </footer>
