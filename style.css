@@ -1745,6 +1745,11 @@ a {
     .footer-top {
         flex-direction: column;
     }
+
+    .custom-cursor,
+    .cursor-follower {
+        display: none !important;
+    }
 }
 
 @media(max-width: 600px) {
@@ -1752,26 +1757,37 @@ a {
 
     .top-bar {
         justify-content: center;
-        padding: 6px 10px;
+        padding: 6px 4px;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
 
     .top-contacts {
         flex-direction: row;
-        flex-wrap: wrap;
-        gap: 6px 15px;
+        flex-wrap: nowrap;
+        gap: 8px;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
 
     .top-contacts a {
-        font-size: 11px;
+        font-size: 9px;
+        white-space: nowrap;
     }
 
     .top-contacts a i {
-        font-size: 13px;
+        font-size: 11px;
+    }
+
+    .btn-outline-nav {
+        padding: 8px 14px;
+        font-size: 12px;
+    }
+
+    .mobile-menu-icon {
+        font-size: 22px;
+        margin-left: 12px;
     }
 }
 
