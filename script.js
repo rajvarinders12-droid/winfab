@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const projectMsg = document.getElementById('c-message').value.trim();
 
             // Format message for WhatsApp
-            let message = `Hello WinFab!%0A%0AI would like to start a project discussion.%0A*Name:* ${name}%0A*Contact:* ${phone}`;
+            let message = `Hello WINFAB!%0A%0AI would like to start a project discussion.%0A*Name:* ${name}%0A*Contact:* ${phone}`;
 
             if (email) message += `%0A*Email:* ${email}`;
             message += `%0A*Service:* ${service}`;
