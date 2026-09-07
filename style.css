@@ -1005,8 +1005,10 @@ a {
     padding-left: 20px;
 }
 
-.reviews-track:hover {
-    animation-play-state: paused;
+@media (hover: hover) {
+    .reviews-track:hover {
+        animation-play-state: paused;
+    }
 }
 
 .review-card {
@@ -1670,9 +1672,10 @@ a {
         padding-left: 15px;
     }
 
-    .spaces-grid:hover,
-    .spaces-grid:active {
-        animation-play-state: paused;
+    @media (hover: hover) {
+        .spaces-grid:hover {
+            animation-play-state: paused;
+        }
     }
 
     .space-card {
@@ -1784,7 +1787,9 @@ a {
         transform: translateX(0);
     }
 
-    100% {}
+    100% {
+        transform: translateX(calc(-50% - 7.5px));
+    }
 }
 
 /* ====================================================
