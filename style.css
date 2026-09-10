@@ -628,8 +628,8 @@ a {
     max-width: 1300px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    /* 6 cards on desktop */
+    grid-template-columns: repeat(5, 1fr);
+    /* 5 cards on desktop */
     gap: 20px;
 }
 
@@ -1786,7 +1786,7 @@ a {
     }
 
     100% {
-        transform: translateX(-1590px);
+        transform: translateX(-1325px);
     }
 }
 
