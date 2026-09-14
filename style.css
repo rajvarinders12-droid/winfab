@@ -694,13 +694,13 @@ a {
 }
 
 .outline-text {
-    font-size: clamp(50px, 9vw, 110px);
+    font-size: clamp(32px, 9vw, 110px);
     font-weight: 900;
     color: var(--c-yellow);
     -webkit-text-stroke: 0;
     line-height: 0.85;
     z-index: 1;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .solid-text {
@@ -986,7 +986,9 @@ a {
 }
 
 .reviews-section .section-heading {
-    padding: 0 40px;
+    padding: 0 15px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .reviews-track-container {
