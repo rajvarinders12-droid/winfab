@@ -2,9 +2,9 @@
 
 :root {
     /* Kept original brand colors as accents */
-    --c-navy: #0f295b;
+    --c-navy: #012255;
     /* Noticeably dark blue instead of black */
-    --c-yellow: #eab308;
+    --c-yellow: #a26234;
     --c-white: #ffffff;
     --c-black: #0b0c10;
     --c-gray-light: #f4f4f5;
@@ -56,7 +56,7 @@ body {
     left: 0;
     width: 40px;
     height: 40px;
-    border: 1px solid rgba(8, 26, 64, 0.4);
+    border: 1px solid rgba(1, 34, 85, 0.4);
     border-radius: 50%;
     transform: translate(-50%, -50%);
     pointer-events: none;
@@ -68,7 +68,7 @@ body {
 .cursor-hover .cursor-follower {
     width: 60px;
     height: 60px;
-    background: rgba(234, 179, 8, 0.1);
+    background: rgba(162, 98, 52, 0.1);
     border-color: transparent;
 }
 
@@ -205,7 +205,7 @@ a {
 
 .nav-links a i {
     font-size: 18px;
-    color: rgba(8, 26, 64, 0.5);
+    color: rgba(1, 34, 85, 0.5);
     /* semi-transparent navy */
 }
 
@@ -548,8 +548,8 @@ a {
 }
 
 .stat-item {
-    background: rgba(15, 41, 91, 0.03);
-    border: 1px solid rgba(15, 41, 91, 0.08);
+    background: rgba(1, 34, 85, 0.03);
+    border: 1px solid rgba(1, 34, 85, 0.08);
     /* light navy border */
     padding: 25px 30px;
     border-radius: var(--rad-md);
@@ -560,7 +560,7 @@ a {
 
 .stat-item:hover {
     transform: translateY(-8px);
-    box-shadow: 0 15px 30px rgba(15, 41, 91, 0.06);
+    box-shadow: 0 15px 30px rgba(1, 34, 85, 0.06);
     background: var(--c-white);
 }
 
@@ -595,7 +595,7 @@ a {
     overflow: hidden;
     aspect-ratio: 4/3;
     /* Changed from 4/5 tall to landscape for smaller footprint */
-    box-shadow: -20px -20px 0px rgba(15, 41, 91, 0.04);
+    box-shadow: -20px -20px 0px rgba(1, 34, 85, 0.04);
     /* Subtle architectural offset shadow */
     border: 1px solid rgba(0, 0, 0, 0.03);
 }
@@ -662,7 +662,7 @@ a {
     left: 0;
     width: 100%;
     padding: 60px 20px 20px;
-    background: linear-gradient(to top, rgba(8, 26, 64, 0.9), transparent);
+    background: linear-gradient(to top, rgba(1, 34, 85, 0.9), transparent);
     color: var(--c-white);
 }
 
@@ -1193,7 +1193,7 @@ a {
 .c-form textarea:focus {
     border-color: var(--c-yellow);
     background: #fff;
-    box-shadow: 0 0 0 4px rgba(234, 179, 8, 0.1);
+    box-shadow: 0 0 0 4px rgba(162, 98, 52, 0.1);
 }
 
 .custom-select {
@@ -1488,7 +1488,7 @@ a {
         box-shadow: none;
         padding-left: 15px;
         border: none;
-        border-left: 2px solid rgba(8, 26, 64, 0.1);
+        border-left: 2px solid rgba(1, 34, 85, 0.1);
         border-radius: 0;
         margin-top: 10px;
         padding-bottom: 0;
